@@ -10,8 +10,6 @@ A aprovação desta API deve ser confirmada com o professor.
 Abra esta pasta no Android Studio, use JDK 17 e SDK Android 35, sincronize o Gradle e execute em Android 7 ou superior. Kotlin 2.0.21 e Navigation Compose 2.8.5 foram mantidos. Firebase não é mais necessário.
 Cadastre uma conta no próprio aplicativo. O login é local, conforme a atividade: usuários no Room, senha SHA-256 e sessão em SharedPreferences. A conta funciona sem internet; o catálogo precisa de conexão.
 
-## Telas
-
 
 ## Organização
 - network: interface e configuração Retrofit.
@@ -19,8 +17,6 @@ Cadastre uma conta no próprio aplicativo. O login é local, conforme a atividad
 - viewmodel: estados e ações das telas.
 - userinterface: telas, navegação e MainActivity.
 
-## Prints
-Pendente antes da entrega: inserir de 4 a 6 capturas reais do aplicativo executando (login, cadastro, lista, detalhe, favoritos e erro). Não foram criadas imagens simuladas.
 
 ## Divisão de tarefas
 Lucas Santiago: API e listagem dos bosses
